@@ -1,10 +1,201 @@
 <!DOCTYPE html>
-<html lang="pl-PL">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Warsztaty 1</title>
+    <title>Sit on chair</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<header>
+    <div class="container">
+        <p class="topLogo">Sit <span>on</span> chair</p>
 
+        <nav>
+            <ul class="menu">
+                <li><a href="#">O firmie</a>
+                    <ul class="submenu">
+                        <li><a href="#">Aktualności</a></li>
+                        <li><a href="#">Nasz team</a></li>
+                        <li><a href="#">Historia</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Galeria</a>
+                    <ul class="submenu">
+                        <li><a href="#">2016/2017</a></li>
+                        <li><a href="#">2017/2018</a></li>
+                    </ul></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
+
+<!--slider-->
+
+<section class="slider clearfix">
+    <div class="container">
+        <div class="arrowLeft">&lt;</div>
+        <div class="div-image">
+            <img src="images/black_chair.png">
+        </div>
+        <div class="div-text">
+            <h1>Sit <span>on</span> our <span>chair</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
+            <div class="slideButton"><a href="#">Zobacz więcej</a></div>
+        </div>
+        <div class="arrowRight">&gt;</div>
+    </div>
+</section>
+
+<!--products-->
+
+<section class="products clearfix">
+    <div class="container">
+        <article class="art1">
+            <div class="articleHeader">
+                <p class="artTitle">Chair CLAIR</p>
+            </div>
+        </article>
+        <article class="art2">
+            <div class="articleHeader">
+                <p class="artTitle">Chair MARGARITA</p>
+            </div>
+        </article>
+        <article class="art3">
+            <div class="articleHeader">
+                <p class="artTitle">Finds all inputs</p>
+                <p class="art3Text">Find all inputs that are not checked and highlights the next
+                    sibling span. Notice there is no change when clicking the
+                    checkboxes since no click events have been.</p>
+                <p class="art3Text">Notice there is no change when clicking the
+                    checkboxes since no click events have been.</p>
+            </div>
+        </article>
+    </div>
+</section>
+
+<!--plans-->
+
+<section class="plans clearfix">
+    <div class="container">
+        <div class="sectionTitle">Cennik</div>
+        <div class="sectionRow">
+
+            <div class="productTab1">
+                <div class="circle-big">
+                    <div class="circle-small"></div>
+                </div>
+                <div class="planType">
+                    <p>Basic plan</p>
+                </div>
+                <div class="planPrice">
+                    <p class="price">85<sup>99</sup></p>
+                    <p class="currency">PLN/MSC</p>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                    </ul>
+                </div>
+                <div class="planJoin">Dołącz</div>
+            </div>
+
+            <div class="productTab2">
+                <div class="circle-big">
+                    <div class="circle-small"></div>
+                </div>
+                <div class="planType">
+                    <p>Standard plan</p>
+                </div>
+                <div class="planPrice">
+                    <p class="price">95<sup>99</sup></p>
+                    <p class="currency">PLN/MSC</p>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                        <li>Gwarancja 5 lat</li>
+                    </ul>
+                </div>
+                <div class="planJoin">Dołącz</div>
+            </div>
+
+            <div class="productTab3">
+                <div class="circle-big">
+                    <div class="circle-small"></div>
+                </div>
+                <div class="planType">
+                    <p>Advance plan</p>
+                </div>
+                <div class="planPrice">
+                    <p class="price">211<sup>00</sup></p>
+                    <p class="currency">PLN/MSC</p>
+                </div>
+                <div class="items">
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                        <li>Gwarancja 6 lat</li>
+                        <li>Porady projektanta</li>
+                    </ul>
+                </div>
+                <div class="planJoin">Dołącz</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--contact-->
+
+<section class="contact clearfix">
+    <div class="container">
+        <div class="sectionTitle" id="secContact">Kontakt</div>
+
+        <div class="contactForm">
+            <div class="formLeft">
+                <form>
+                    <div><input type="text" name="firstName" placeholder="Imię" id="firstName"></div>
+                    <div><input type="email" name="email" placeholder="email" id="email"></div>
+                    <div><textarea name="about" rows="4" placeholder="Wiadomość" id="message"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="formRight">
+                <div class="formImage"></div>
+                <div>
+                    <form>
+                        <input class="checkAgree" type="checkbox" name="agree" value="agree" checked>
+                        Zgadzam się na przetwarzanie danych osobowych
+                    </form>
+                    <div class="contactButton">Wyślij</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--footer-->
+
+<footer>
+    <div class="container">
+        <div class="footRow">
+            <div class="copyright">Copyright 2018 | All rights reserved - Sit on chair</div>
+            <div class="socialMedia">
+                <img src="images/flickr.png">
+                <img src="images/vimeo.png">
+                <img src="images/pinterest.png">
+                <img src="images/twitter.png">
+            </div>
+            <div class="btmLogo"><p>Sit <span>on</span> chair</p></div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
